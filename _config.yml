@@ -1,1 +1,13 @@
-theme: jekyll-theme-cayman
+title: flowing → systems
+author: Jan Corazza
+description: A blog by Jan Corazza
+show_excerpts: true
+
+theme: minima
+minima:
+  social_links:
+    twitter: jancorazza
+    github: corazza
+
+twitter_username: jancorazza
+github_username:  corazza
