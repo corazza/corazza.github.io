@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Manipulating Java class loading mechanisms
-categories: [java, security]
+tags: [java, security]
 ---
 
 

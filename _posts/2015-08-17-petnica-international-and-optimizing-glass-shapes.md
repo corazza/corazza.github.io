@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Petnica International and optimizing glass shapes
-categories: [science, genetic-algorithms, project]
+tags: [science, genetic-algorithms, project]
 excerpt: |
   Over the last 10 days I've been at Petnica International, a science seminar in Serbia, and it was an incredible experience (not unlike other [Petnica](http://petnica.rs/) programs) - I've met lots of cool and interesting people from all over Europe, learned some new physics and computer science - but this post is mainly about my project there.
 ---
