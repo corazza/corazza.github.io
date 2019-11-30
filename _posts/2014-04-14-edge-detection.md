@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Edge detection using the Sobel operator
-categories: [science, project]
+tags: [science, project]
 ---
 
 

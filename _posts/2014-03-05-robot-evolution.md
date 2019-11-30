@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Robot Evolution
-categories: [java, genetic-algorithms, project]
+tags: [java, genetic-algorithms, project]
 ---
 
 
