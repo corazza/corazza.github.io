@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A game in a pure language (part 1): introduction and problems with Idris"
-date: "2020-01-13 14:19:37 +0100"
+date: "2020-01-13 14:21:04 +0100"
 ---
 
 At the beginning of 2019, I started working on my most ambitious project yet: a video game in Idris, a pure functional language with dependent types. I picked Idris for two reasons: (1) because I wanted to learn the language as it seemed amazing, and (2) because I was sure that making a game in a pure language was bound to present interesting problems. So far it's been an amazing journey (albeit frustrating at times): somewhere around 13k lines of Idris code, along with trace amounts of C and C++ needed for some bindings; a number of somewhat-working game systems, one complete rewrite...
