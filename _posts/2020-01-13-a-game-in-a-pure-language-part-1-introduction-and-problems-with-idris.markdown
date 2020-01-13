@@ -76,8 +76,8 @@ These aren't really new ideas, and there have been games that executed both the 
     ```idris
     doDamage attacker target for sound = with RuleScript do
       UpdateNumericProperty target "health" $ waste for
-      Just health <- QueryNumericProperty target "health" $ current | pure ()
       playConditional attacker sound
+      Just health <- QueryNumericProperty target "health" $ current | pure ()
       case health <= 0 of
         False => pure ()
         True => Output $ Death target
@@ -184,11 +184,11 @@ Bask in this glory:
 
 This one *seems OK* on first glance until you realize it's warning you that there's a mismatch between **two identical things**:
 
-![errors2](/assets/game/01/errors2.png)
+![errors2](/assets/game/01/errors2.PNG)
 
 Oh, you _probably_ want to enable showing implicits... maybe? Here you go:
 
-![errors3](/assets/game/01/errors3.png)
+![errors3](/assets/game/01/errors3.PNG)
 
 Okay, enough snark. This is a genuine problem. As soon as you're working in a context like `ST`, the main state management facility I've used, you can pretty much forget about error messages being useful most of the time. They really do look similar to the above. That isn't the only place where error messages fail the user, just the most frequent one. Often, the compiler will complain about something in a roundabout way, and you'll be forced to read its mind and conclude that, no, there really wasn't a type error in your code, you just forgot to export some function from another file.
 
