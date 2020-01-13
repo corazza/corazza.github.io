@@ -174,7 +174,7 @@ Basically, forget interactive editing, the meme of making coffee while the code 
 
 There are probably some aspects of my code that worsen this problem, such as liberal use of `do` notation and overloaded `>>=`, but they're still basically things you'd encounter in most real-world codebases, and the worst case is an important reference point.
 
-A related problem is memory usage by the IDE integration of `idrisc`. There's a memory leak and I could only do like 15 actions before I have to restart Atom!
+A related problem is memory usage by the IDE integration of `idrisc`. There's a memory leak and I could only do like 15 actions before I had to restart Atom!
 
 ### 2. Bad error messages
 
@@ -216,13 +216,13 @@ Almost every attempt to install Idris on another machine and get my game to comp
 
 In Idris, functions can take implicit arguments, a near-essential feature. A function such as:
 
-```idris
+```haskell
 index : Fin n -> Vect n a -> a
 ```
 
 already has two implicit arguments: `n : Nat` and `a : Type`, so its full definition is really:
 
-```idris
+```haskell
 index : {a : Type} -> {n : Nat} -> Fin n -> Vect n a -> a
 ```
 
@@ -232,7 +232,7 @@ Ideally, you'd expect to provide implicit arguments explicitly only when somethi
 
 For example, I still don't know why I had to put `{m}`s there on the last line here:
 
-```idris
+```haskell
 renderBackground : (SDL m, GameIO m) =>
                    (map_creator : Var) ->
                    (sdl : Var) ->
