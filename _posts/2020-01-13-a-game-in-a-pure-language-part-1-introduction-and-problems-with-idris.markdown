@@ -14,7 +14,7 @@ Nevertheless, I've really fallen in love with Idris, and many of these problems 
 
 This is the first post in what will hopefully become a series about my experience with this project thus far. I'll talk some about the game itself, and the various challenges that spring up in programming a game in a pure language.
 
-# A short note on Idris
+## A short note on Idris
 
 Just like functional programming encourages you to express functions on the fly, dependent typing and first-class types expand those ergonomics up to the type level, allowing you to compute types. This is a huge deal when it comes to verifying that your programs are correct, because you can express certain properties in types that you otherwise couldn't, which the type-checker will then make sure are satisfied.
 
@@ -31,7 +31,7 @@ The first line is the most important one, especially `Vect (m + n) a`. The `+` t
 
 Sadly I didn't manage to make as much use of this type-level programming as I had hoped I would at the beginning: Idris allows you to gradually refine your types, and I've often succumbed to just moving on to the next feature as my interest for the game itself grew. Regardless, my understanding on that front is progressing, and there were indirect benefits especially in the department of state management (I didn't have to write my own proofs in order to benefit from proofs which were already written about the elements I was using).
 
-## Type-driven development
+### Type-driven development
 
 One of the best aspects of Idris is *type-driven development*. The essential idea is that when writing your functions, you start from the types, which you gradually refine, and you have the compiler fill in as much code as possible on your behalf. Writing Idris should ideally be an interactive process of talking to the compiler:
 
@@ -43,7 +43,7 @@ The parts that look like `?this` are called *holes*, and since they are **typed*
 
 Now, a few words about the game itself.
 
-# It's a 2D RPG / action platformer with a focus on physics
+## It's a 2D RPG / action platformer with a focus on physics
 
 My main goal with this game is to make the combat fun. I dislike RPGs where you merely unlock progressively more powerful skills, which in the end amount to simple damage multipliers. I also love visual dynamism, but dislike when it's treated as merely purposeless fluff (such as having enemies fly away with ragdoll mechanics when killed, but in a way that the effect is neither impacted by the severity of your actions nor is able to affect other objects on the scene, reducing the physics of the event to a mere animation). In WoW, when you shoot an arrow at an enemy, an animation will just chase them no matter how they move, and when it hits it will do some damage and/or apply an effect. Other games tend to do better these days, giving you an option to actually aim your hits, but the improvement rarely goes beyond that, and the number of interesting moves you can pull off remains relatively poor (there are exceptions, such as Dark Messiah).
 
@@ -64,7 +64,7 @@ Another major part of the game that I want to get right is, well, the RPG aspect
 
 These aren't really new ideas, and there have been games that executed both the combat and the RPG aspects way better than I could. They aren't clever or innovative gameplay gimmicks. It's just that I have identified this combination as the game that I've spent a lot of time searching for and never managed to find. A game you can engage in short bursts while still progressing towards long-term goals, and where this progression rewards you not just in virtual numbers but in more possibilities and varied combat.
 
-# What was made so far
+## What was made so far
 
 - basic level editor
 
@@ -140,13 +140,13 @@ Obviously lacking: any kind of content, and most of the actual systems that the 
 
 Lastly I'm going to summarize some problems that I've had with Idris:
 
-# Problems with Idris
+## Problems with Idris
 
 Some of these issues are probably actionable, I wish I had the time and will to actually document them properly and report them to the maintainers, and maybe help a little in getting this awesome language more traction in the mainstream.
 
 Note that I'm writing this from the perspective of an Idris (and fp, really) novice.
 
-## 1. Compile times
+### 1. Compile times
 
 As I've said, Idris is supposed to be developed interactively with the compiler helping you along the way by:
 
@@ -175,7 +175,7 @@ There are probably some aspects of my code that worsen this problem, such as lib
 
 A related problem is memory usage by the IDE integration of `idrisc`. There's a memory leak and I could only do like 15 actions before I had to restart Atom!
 
-## 2. Bad error messages
+### 2. Bad error messages
 
 Bask in this glory:
 
@@ -197,7 +197,7 @@ Okay, enough snark. This is a genuine problem. As soon as you're working in a co
 
 Here you are told that you're not allowed to execute some operation because you're in the wrong state. This shows how much potential Idris has.
 
-## 3. Rough edges around organizing stateful code components
+### 3. Rough edges around organizing stateful code components
 
 I will definitely sing praises to `Control.ST` later on, however, it sometimes seemed prohibitively inflexible. Already mentioned: weird error messages.
 
@@ -207,11 +207,11 @@ One of the main apparent failings is sending `Var`s around, which are values tha
 
 This kind of inflexibility popped out often and was the most annoying thing with Idris. A part of the reason is certainly the fact that I don't understand this territory all that well. It's possible that `ST` afforded me too much comfort and that as a result I sometimes descended into a reflexively imperative mindset, leading to bad approaches to the design problems I was facing. However, `ST` really *does* seem to be the best way to create stateful systems in Idris, and since the language is so new I was basically unable to figure out whether there were better approaches (given that I wanted to actually complete the game and had other time constraints). Rather I was forced to create somewhat hacky solutions.
 
-## 4. Installation
+### 4. Installation
 
 Almost every attempt to install Idris on another machine and get my game to compile and run was a trip to literal hell. I'm pretty sure most of these attempts failed. At one point I was even looking at GHC source code, you shouldn't have to do that unless you really want to!
 
-## 5. The damned implicits
+### 5. The damned implicits
 
 In Idris, functions can take implicit arguments, a near-essential feature. A function such as:
 
