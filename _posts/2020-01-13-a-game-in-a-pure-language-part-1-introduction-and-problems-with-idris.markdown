@@ -20,6 +20,13 @@ Just like functional programming encourages you to express functions on the fly,
 
 Here's a canonical example that anyone who's heard of Idris has seen a million times already:
 
+{% highlight idris %}
+||| [1, 2, 3] ++ [4, 5] = [1, 2, 3, 4, 5]
+(++) : (xs : Vect m a) -> (ys : Vect n a) -> Vect (m + n) a
+(++) []      ys = ys
+(++) (x::xs) ys = x :: xs ++ ys
+{% endhighlight %}
+
 ```idris
 ||| [1, 2, 3] ++ [4, 5] = [1, 2, 3, 4, 5]
 (++) : (xs : Vect m a) -> (ys : Vect n a) -> Vect (m + n) a
