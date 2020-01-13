@@ -21,7 +21,7 @@ Just like functional programming encourages you to express functions on the fly,
 Here's a canonical example that anyone who's heard of Idris has seen a million times already:
 
 ```haskell
-||| [1, 2, 3] ++ [4, 5] = [1, 2, 3, 4, 5]
+-- [1, 2, 3] ++ [4, 5] = [1, 2, 3, 4, 5]
 (++) : (xs : Vect m a) -> (ys : Vect n a) -> Vect (m + n) a
 (++) []      ys = ys
 (++) (x::xs) ys = x :: xs ++ ys
@@ -73,7 +73,7 @@ These aren't really new ideas, and there have been games that executed both the 
 - scripting engine
   - scripts can be programmed in a makeshift DSL:
 
-    ```idris
+    ```haskell
     doDamage attacker target for sound = with RuleScript do
       UpdateNumericProperty target "health" $ waste for
       playConditional attacker sound
@@ -118,7 +118,7 @@ These aren't really new ideas, and there have been games that executed both the 
 
 - descriptions of game entities such as maps, objects, behaviors etc., which can be read from and saved to JSON files
 
-  ```idris
+  ```haskell
   ObjectCaster MapDescription where
     objectCast dict = with Checked do
       name <- getString "name" dict
