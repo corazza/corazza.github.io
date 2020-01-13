@@ -6,7 +6,7 @@ date: "2020-01-13 14:21:04 +0100"
 
 At the beginning of 2019, I started working on my most ambitious project yet: a video game in Idris, a pure functional language with dependent types. I picked Idris for two reasons: (1) because I wanted to learn the language as it seemed amazing, and (2) because I was sure that making a game in a pure language was bound to present interesting problems. So far it's been an amazing journey (albeit frustrating at times): somewhere around 13k lines of Idris code, along with trace amounts of C and C++ needed for some bindings; a number of somewhat-working game systems, one complete rewrite...
 
-[![two](/assets/game/01/two.gif)](https://gfycat.com/advancedreflectingirishterrier)
+![two](/assets/game/01/two.gif)
 
 However, I seem to have come to an impasse. I definitely learned a _lot_ about Idris, functional programming, and leveraging type systems in the context of an extremely stateful and interactive system. At the same time, the idea for the game itself really grew on me, and it had become apparent that my lack of experience in this field, along with some things that are obvious impracticalities of Idris development, were a very real hinderance in executing this project.
 
