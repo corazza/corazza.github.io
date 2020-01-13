@@ -174,7 +174,7 @@ Basically, forget interactive editing, the meme of making coffee while the code 
 
 There are probably some aspects of my code that worsen this problem, such as liberal use of `do` notation and overloaded `>>=`, but they're still basically things you'd encounter in most real-world codebases, and the worst case is an important reference point.
 
-A related problem is memory usage by the IDE integration of `idrisc`. There's a memory leak and I could only do like 15 actions before I had to restart Atom!
+A related problem is memory usage by the IDE integration of `idrisc`. There's a memory leak and I could only do like 15 actions before I have to restart Atom!
 
 ### 2. Bad error messages
 
