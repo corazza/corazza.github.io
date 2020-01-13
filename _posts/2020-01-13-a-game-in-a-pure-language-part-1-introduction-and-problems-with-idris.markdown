@@ -37,7 +37,7 @@ One of the best aspects of Idris is *type-driven development*. The essential ide
 
 ![level editor](/assets/game/01/blog_idris_evaluate.gif)
 
-The compiler knows that the `Expr` type comes in four variants and can automatically split your function implementation into all possible cases depending on the variant of the argument. In fact, because of dependent types, this doesn't only concern the "form" of the argument, but its type as well. When splitting the `++` function, the cases would be `[]` and `(x::xs)` as above, and these branches contain the information about the type of the argument: in the `[]` case, we know that `xs : Vect 0 a`.
+The compiler knows that the `Expr` type comes in four variants and can automatically split your function implementation into all possible cases depending on the variant of the argument. In fact, because of dependent types, this doesn't only concern the "form" of the argument, but all aspects of its value as well. When splitting the `++` function, the cases would be `[]` and `(x::xs)` as above, and these branches contain the information about the type of the argument: in the `[]` case, we know that `xs : Vect 0 a`.
 
 The parts that look like `?this` are called *holes*, and since they are **typed** you can use them to guide you in implementing the rest of the function. This is more handy than it sounds: in Idris, an unexpected amount of information hides in the type, and the types of holes can tell you things like "you'll need to close this resource before continuing" or "you can't access health information in this part of code". Sometimes, the holes can be automatically filled in based on the available information alone.
 
