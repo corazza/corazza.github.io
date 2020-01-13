@@ -76,6 +76,7 @@ These aren't really new ideas, and there have been games that executed both the 
     ```idris
     doDamage attacker target for sound = with RuleScript do
       UpdateNumericProperty target "health" $ waste for
+      Just health <- QueryNumericProperty target "health" $ current | pure ()
       playConditional attacker sound
       case health <= 0 of
         False => pure ()
