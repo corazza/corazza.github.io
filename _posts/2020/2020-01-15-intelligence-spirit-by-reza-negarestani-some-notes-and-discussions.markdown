@@ -38,7 +38,7 @@ I generally think of this as control problems where the environment is some kind
 
 > ok well yea you’re gonna disagree, because he doesn’t think that is sufficient for the designation of intelligence. He would regard all that as still taking place in the space of causes, as opposed to the space of reasons. What you are calling a goal he would probably regard as a pattern, fully explainable in terms of causal factors alone
 
-...
+///
 
 > What exactly do you mean by “doesn’t think” in your reference to AGI, I believe I have an idea I just don’t want to be ascribing the wrong line of thought due to its inherent long list of meaning that is currently ascribed to it. So if you wouldn’t mind could you further explain what exactly you mean by a non thinking, non reasoning AGI? [...]
 
@@ -50,7 +50,7 @@ A less artificial example would be an AGI that has no need for language or conce
 
 It will certainly have recurrent mental states and patterns, but I still think that with enough creativity you can imagine it succeeding without proper concepts. It might make sense for it to at some point actually develop concepts and even designate itself as a shoe marketshare increaser, but not in service of updating this norm, only in the service of bettering itself. Either way, it's nonessential.
 
-...
+///
 
 > the book ostensibly argues against the idea of "intelligence-as-pattern-governed behavior" that is so pervasive in the literature (which is akin to the hypothesis of a "Blind idiot god" or "bateria reacting on a petri dish" as examples of intelligence). You might disagree with Reza's account, of course. Just pointing out that evoking a concept of intelligence "without thought" is to level an argument the book is already an answer to, but perhaps this gets clearer later in. Same with the "anthropocentrism" objection. The book is very clear about why methodologically it tries to model intelligence upon human intelligence, while at the same time building leverage points with which to supersede it. This objection is answered in the book.
 
