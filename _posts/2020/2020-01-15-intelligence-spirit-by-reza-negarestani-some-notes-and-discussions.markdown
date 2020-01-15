@@ -12,7 +12,7 @@ I only say this because I think Negarestani himself would _want_ to start this k
 
 This is a collection of preliminary criticisms and random thoughts and discussion mostly in reaction to the first chapter and this critique/review of the book (which presents a good summary): [http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352](http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352)
 
-It's a bit all over the place both in outline and in content, becuase I just collected several disparate discussions in a single place. Thankfully many parts and pieces here are self-contained.
+It's a bit all over the place both in outline and in content, because I just collected several disparate discussions in a single place. Thankfully many parts and pieces here are self-contained.
 
 ---
 
