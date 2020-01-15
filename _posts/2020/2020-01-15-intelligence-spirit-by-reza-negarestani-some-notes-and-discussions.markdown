@@ -44,7 +44,7 @@ I generally think of this as control problems where the environment is some kind
 
 Clearly there is some computation going on, an agent that doesn't ever do anything isn't intelligent. So if "thinking" just means "any mental activity", then of course, no AGI can be non-thinking. But I think that there _is_ mental activity that can reasonably be called non-thinking, although I should've avoided this term.
 
-First, an example I already gave above: ants and bugs. There's looots of processing in their brains going on, that I wouldn't call thinking. Also, they're agents that consistently accomplish goals in varying environments, so they're clearly intelligent. There you have an example of a non-thinking intelligence.
+An example: ants and bugs. There's looots of processing in their brains going on, that I wouldn't call thinking. Also, they're agents that consistently accomplish goals in varying environments, so they're clearly intelligent. There you have an example of a non-thinking intelligence.
 
 A less artificial example would be an AGI that has no need for language or concepts because it does not do reasoning. Imagine an AGI running a shoe factory. It generates and executes extremely elaborate plans and eventually conquers the entire global.... shoe market or whatever. It does this through a kind of planning that is singular in purpose (increase marketshare!) but unintelligible to itself: at no point does it stop to consider the fact that it is in fact increasing market share or to create any concept at all. All its mental activity is a form of visual-tactile-counterfactual simulating.
 
