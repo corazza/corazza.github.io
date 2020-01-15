@@ -10,7 +10,7 @@ Thankfully I am _somewhat_ familiar with philosophy and neorationalist discourse
 
 I only say this because I think Negarestani himself would _want_ to start this kind of discourse: he begins by saying that he considers the distinction between analytical and continential philosophy outdated and generally useless, so is it really that much of a stretch to think he'd want to include non academic philosophers who still think a lot about AI and philosophy, in a book where it is a major theme? I'll say more on this topic in the 6th note.
 
-This is a collection of preliminary criticisms and random thoughts and discussion mostly in reaction to the first chapter and this critique/review of the book (which presents a good summary): http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352
+This is a collection of preliminary criticisms and random thoughts and discussion mostly in reaction to the first chapter and this critique/review of the book (which presents a good summary): [http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352](http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352)
 
 It's a bit all over the place both in outline and in content, becuase I just collected several disparate discussions in a single place. Thankfully many parts and pieces here are self-contained.
 
