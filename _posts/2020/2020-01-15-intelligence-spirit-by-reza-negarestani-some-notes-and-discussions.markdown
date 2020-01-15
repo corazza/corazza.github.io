@@ -111,7 +111,7 @@ I don't think that this is a problem. The reason it's not a problem is that thes
 
 If we ascribe intelligence to any sort of process, then we also ascribe agency to it. It's just that we haven't specified the interface of this agency: if we're talking about people, the interface is the whole physical world (well not really but nevermind). If we're talking about an institutional mesh, the interface are other institutions, society, etc.
 
-In a way, _all real intelligences_ are diffuse. I cannot imagine an intelligence that is _not_ on some level an emergent phenomena as opposed to something fundamental.
+In a way, _all real intelligences_ are diffuse. I cannot imagine an intelligence that is _not_ on some level an emergent phenomenon as opposed to something fundamental.
 
 ## Note 5, on induction
 
