@@ -11,3 +11,7 @@ minima:
 
 twitter_username: jancorazza
 github_username:  corazza
+
+
+plugins:
+  - jekyll-feed
