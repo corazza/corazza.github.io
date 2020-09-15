@@ -2,6 +2,7 @@
 layout: post
 title: 'Intelligence & Spirit (by Reza Negarestani): some notes and discussions'
 date: '2020-01-15 23:58'
+categories: philosophy
 ---
 
 Reza Negarestani's Intelligence and Spirit is intimidating. 600 pages, and already the first chapter doesn't spare the reader of heavy Hegelian and Kantian machinations. I was narrowly interested in what he had to say about the concept of intelligence, and specifically how a philosopher of that kind would talk about AI and AGI.
