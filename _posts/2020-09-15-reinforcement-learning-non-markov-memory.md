@@ -2,6 +2,7 @@
 layout: post
 title: 'Reinforcement learning, non-Markov environments, and memory'
 date: '2020-09-15 15:00'
+header-img: "https://res.cloudinary.com/dhngozzmz/image/upload/v1600197120/IMG_20200915_211311_e6xpgb.jpg"
 ---
 
 I recently finished reading a reinforcement learning textbook (by Barto and Sutton), and throughout it I was constantly vexed by one important assumption that underlined all the algorithms: the Markov property, stating that a succeeding event depends only on the one preceding it, and not on ones far in the past. This kind of restriction is a helpful tool both practically and theoretically, but it causes problems when dealing with a rather natural situation where there is long-term dependence between events. The book doesn't address this, so I tried to, and found out it's a genuine problem with real research behind it. Here's what I did.
