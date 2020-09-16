@@ -12,7 +12,7 @@ But first, a brief explanation of the basic concepts:
 
 ## The basics of reinforcement learning
 
-The point of RL algorithms is to learn a policy (for achieving some goal) from interacting with an environment. A policy is a mapping from states to actions (or, a mapping from actions to probabilities of taking them in some particular state), which is followed by an RL _agent_. The interaction consists of the agent taking actions which causes the environment to undergo state transitions and provide the agent with a _reward signal_ evaluating the its performance in achieving the goal. The point isn't chasing after immediate rewards, but maximizing overall _cumulative reward_ (or gain) from the interaction.
+The point of RL algorithms is to learn a policy (for achieving some goal) from interacting with an environment. A policy is a mapping from states to actions (or, a mapping from actions to probabilities of taking them in some particular state), which is followed by an RL _agent_. The interaction consists of the agent taking actions which causes the environment to undergo state transitions and provide the agent with a _reward signal_ evaluating its performance in achieving the goal. The point isn't chasing after immediate rewards, but maximizing overall _cumulative reward_ (or gain) from the interaction.
 
 Many tasks can successfully be formulated in this framework: a game of chess where all moves give a reward of 0, except a win resulting in a reward of 1 and loss resulting in a reward of -1 (a draw also being 0).
 
@@ -20,7 +20,7 @@ The algorithms accomplish policy improvement indirectly by estimating the _value
 
 This incremental process is called *Generalized Policy Iteration* and is a strong contender for the core idea of reinforcement learning. It actually consists of two competing processes:
 
-1. **Policy evaluation**: for a given policy, estimate the values of states or state-action pairs for the agent following that policy (i.e. learn a **value function**)
+1. **Policy evaluation**: for a given policy, estimate the values of states or state-action pairs for the agent following that policy (i.e. learn the **value function** of the policy)
 2. **Policy improvement**: for a given value function, change the policy so that it is more likely to result in more valuable behavior (e.g. by making it greedy with respect to the learned value function)
 
 An important theoretical result that enables this is the *Policy improvement theorem*, which justifies the policy improvement step. It assures that the resulting policy is either strictly better, or that the original policy is already optimal. (There's some very interesting math here derived from Bellman optimality equations, but I won't get into that here.)
