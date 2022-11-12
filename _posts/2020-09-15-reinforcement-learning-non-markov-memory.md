@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Reinforcement learning, non-Markov environments, and memory'
+title: 'Reinforcement learning, non-Markovian environments, and memory'
 date: '2020-09-15 15:00'
 header-img: "https://res.cloudinary.com/dhngozzmz/image/upload/v1600197120/IMG_20200915_211311_e6xpgb.jpg"
 ---
