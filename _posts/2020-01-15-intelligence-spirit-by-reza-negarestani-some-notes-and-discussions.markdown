@@ -4,18 +4,6 @@ title: 'Intelligence & Spirit (by Reza Negarestani): some notes and discussions'
 date: '2020-01-15 23:58'
 ---
 
-Reza Negarestani's Intelligence and Spirit is intimidating. 600 pages, and already the first chapter doesn't spare the reader of heavy Hegelian and Kantian machinations. I was narrowly interested in what he had to say about the concept of intelligence, and specifically how a philosopher of that kind would talk about AI and AGI.
-
-Thankfully I am _somewhat_ familiar with philosophy and neorationalist discourse, where Negarestani is one of the main players. One point on which I would immediately fault this book is that it's really bad at opening dialogue with communities that would definitely have much to say on the these topics. Of course, you could never expect to see Eliezer Yudkowsky, who is explicitly mentioned in the book, in the same room as someone who pays any mind to Kant or Hegel, but there are those of us who want to handle philosophy but still primarily consider themselves technical people, and we could really benefit if the book was just slightly more didactic. Kind of like Quentin Meillassoux's After Finitude which tackles arguably harder philosophical territory, but is way more accessible.
-
-I only say this because I think Negarestani himself would _want_ to start this kind of discourse: he begins by saying that he considers the distinction between analytical and continential philosophy outdated and generally useless, so is it really that much of a stretch to think he'd want to include non academic philosophers who still think a lot about AI and philosophy, in a book where it is a major theme? I'll say more on this topic in the 6th note.
-
-This is a collection of preliminary criticisms and random thoughts and discussion mostly in reaction to the first chapter and this critique/review of the book (which presents a good summary): [http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352](http://www.cosmosandhistory.org/index.php/journal/article/viewFile/763/1352)
-
-It's a bit all over the place both in outline and in content, because I just collected several disparate discussions in a single place. Thankfully many parts and pieces here are self-contained.
-
----
-
 ## Note 1: intelligibility and the causal nature of intelligence
 
 Positing the link between intelligence and intelligibility is interesting in itself, but he doesn't seem to even consider the possibility of non-conceptual, non-thinking, unintelligible intelligence. Even though the book purports to entertain an outside, nonhuman perspective, it seems to start out from a perspective that is too human already, it's too restrictive.
