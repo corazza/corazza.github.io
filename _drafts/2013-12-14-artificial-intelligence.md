@@ -49,8 +49,8 @@ The academic community has created a powerful toolbox for the IT industry to uti
 However, there are still ambitious projects that aim to create *hard*,
 or artificial general intelligence.
 This is because such endeavors are finally becoming less idealistic and utopian, and more practical.
-One very promising example is the [OpenCog](<http://opencog>.
-org/) project - an open source initiative based in Hong Kong that is currently experimenting with intelligent [Nao](http://en.wikipedia.org/wiki/Nao_%28robot%29) robots,
+One very promising example is the [OpenCog](<http://opencog>.org/)
+project - an open source initiative based in Hong Kong that is currently experimenting with intelligent [Nao](http://en.wikipedia.org/wiki/Nao_%28robot%29) robots,
 and creating a comprehensive free/libre open source C++ AI framework around their work.
 
 Essentially, there are currently three further directions that research into AGI could take.
