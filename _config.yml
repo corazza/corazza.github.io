@@ -7,11 +7,15 @@ remote_theme: jekyll/minima
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/corazza/" }
-    - { platform: twitter, user_url: "https://twitter.com/corazza" }
+    - { platform: twitter, user_url: "https://twitter.com/jancorazza/" }
   skin: auto
 
 twitter_username: jancorazza
 github_username:  corazza
 
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
+
+
+feed:
+  disable: true

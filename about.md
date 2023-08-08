@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "About"
-permalink: /about/
+permalink: /
 ---
 
+- [Posts](/posts)
 - [GitHub](https://github.com/corazza/)
 
-![me](/assets/images/profile.jpg)
+![me](/assets/images/profile2.jpg)
