@@ -3,7 +3,8 @@ author: Jan Corazza
 description: math, AI, functional programming, philosophy, ...
 show_excerpts: true
 
-theme: minima
+remote_theme: jekyll/minima
+# theme: minima
 minima:
   social_links:
     twitter: jancorazza
