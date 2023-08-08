@@ -6,9 +6,9 @@ show_excerpts: true
 remote_theme: jekyll/minima
 minima:
   social_links:
-    twitter: jancorazza
-    github: corazza
-  skin: dark
+    - { platform: github,  user_url: "https://github.com/corazza/" }
+    - { platform: twitter, user_url: "https://twitter.com/corazza" }
+  skin: auto
 
 twitter_username: jancorazza
 github_username:  corazza
