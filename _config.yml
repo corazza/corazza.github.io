@@ -1,4 +1,4 @@
-title: flowing → systems
+title: Jan Corazza's blog
 author: Jan Corazza
 description: math, AI, functional programming, philosophy, ...
 show_excerpts: true
@@ -8,6 +8,7 @@ minima:
   social_links:
     twitter: jancorazza
     github: corazza
+  skin: auto
 
 twitter_username: jancorazza
 github_username:  corazza
