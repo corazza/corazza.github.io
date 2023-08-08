@@ -4,7 +4,6 @@ description: math, AI, functional programming, philosophy, ...
 show_excerpts: true
 
 remote_theme: jekyll/minima
-# theme: minima
 minima:
   social_links:
     twitter: jancorazza
