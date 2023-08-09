@@ -1,1 +1,1 @@
-# Jan Corazza's blog
+# Jan Corazza's homepage

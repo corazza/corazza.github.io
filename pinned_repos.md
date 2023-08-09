@@ -1,20 +1,3 @@
----
-layout: page
-title: "About"
-permalink: /
-scripts:
-  - /github-repos.js
----
-
-|:------------------:|:-----------------------------------------:|
-| [Posts](/posts)    | [GitHub](https://github.com/corazza/)     |
-
-<!-- ![me](/assets/images/profile2.jpg) -->
-<img src="/assets/images/profile2.jpg" alt="Me" style="width:50%;">
-
-<!-- <script src="/github-repos.js" type="module"></script>
-<div id="github-repos"></div> -->
-
 ## My projects
 
 - **[text2task](https://github.com/corazza/text2task)**  
@@ -41,4 +24,3 @@ scripts:
   We implemented quantization methods for visual transformers and analyzed tradeoffs between model performance and accuracy. (Visage Technologies internship)  
   _Language: Python | ⭐ 0_
 
-[See more on my GitHub!](https://github.com/corazza/)

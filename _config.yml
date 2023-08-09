@@ -1,4 +1,4 @@
-title: Jan Corazza's blog
+title: Jan Corazza's homepage
 author: Jan Corazza
 description: math, AI, functional programming, philosophy, ...
 show_excerpts: true
@@ -15,7 +15,6 @@ github_username:  corazza
 
 # plugins:
 #   - jekyll-feed
-
 
 feed:
   disable: true
