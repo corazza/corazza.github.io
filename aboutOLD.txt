@@ -41,4 +41,4 @@ scripts:
   We implemented quantization methods for visual transformers and analyzed tradeoffs between model performance and accuracy. (Visage Technologies internship)  
   _Language: Python | ⭐ 0_
 
-
+[See more on my GitHub!](https://github.com/corazza/)

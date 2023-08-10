@@ -43,8 +43,8 @@ def get_pinned_repositories(username, token):
         return []
 
 
-def generate_markdown(repositories):
-    output = '## My projects\n\n'
+def generate_repo_markdown(repositories):
+    output = ''
     for repo in repositories:
         repo_name = repo['name']
         repo_url = repo['url']
@@ -58,6 +58,12 @@ def generate_markdown(repositories):
     return output
 
 
+def generate_about_markdown(repo_markdown: str) -> str:
+    with open('aboutTEMPLATE.txt', 'r') as f:
+        content = f.read()
+        return content.replace('$$$HERE$$$', repo_markdown)
+
+
 def main():
     username = 'corazza'
     token = os.environ.get('GITHUB_API_TOKEN')
@@ -67,12 +73,13 @@ def main():
         return
 
     repositories = get_pinned_repositories(username, token)
-    markdown_output = generate_markdown(repositories)
+    repo_output = generate_repo_markdown(repositories)
+    about_output = generate_about_markdown(repo_output)
 
-    print(markdown_output)
+    print(about_output)
 
-    with open('pinned_repos.md', 'w') as f:
-        f.write(markdown_output)
+    with open('about.md', 'w') as f:
+        f.write(about_output)
 
 
 if __name__ == '__main__':
