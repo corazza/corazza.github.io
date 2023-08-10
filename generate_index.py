@@ -58,8 +58,8 @@ def generate_repo_markdown(repositories):
     return output
 
 
-def generate_about_markdown(repo_markdown: str) -> str:
-    with open('aboutTEMPLATE.txt', 'r') as f:
+def generate_index_markdown(repo_markdown: str) -> str:
+    with open('indexTEMPLATE.txt', 'r') as f:
         content = f.read()
         return content.replace('$$$HERE$$$', repo_markdown)
 
@@ -74,12 +74,12 @@ def main():
 
     repositories = get_pinned_repositories(username, token)
     repo_output = generate_repo_markdown(repositories)
-    about_output = generate_about_markdown(repo_output)
+    index_output = generate_index_markdown(repo_output)
 
-    print(about_output)
+    print(index_output)
 
-    with open('about.md', 'w') as f:
-        f.write(about_output)
+    with open('index.md', 'w') as f:
+        f.write(index_output)
 
 
 if __name__ == '__main__':

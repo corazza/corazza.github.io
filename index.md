@@ -1,21 +1,11 @@
 ---
 layout: page
-title: "About"
 permalink: /
-scripts:
-  - /github-repos.js
 ---
 
-|:------------------:|:-----------------------------------------:|
-| [Posts](/posts)    | [GitHub](https://github.com/corazza/)     |
-
-<!-- ![me](/assets/images/profile2.jpg) -->
 <img src="/assets/images/profile2.jpg" alt="Me" style="width:50%;">
 
-<!-- <script src="/github-repos.js" type="module"></script>
-<div id="github-repos"></div> -->
-
-## My projects
+## My projects ~ [GitHub](https://github.com/corazza/)
 
 - **[text2task](https://github.com/corazza/text2task)**  
   Describe a task in natural language and see an agent perform it! (Master's thesis)  

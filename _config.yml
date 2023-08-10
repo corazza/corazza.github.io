@@ -3,6 +3,9 @@ author: Jan Corazza
 description: math, AI, functional programming, philosophy, ...
 show_excerpts: true
 
+header_pages:
+  - posts.md
+
 remote_theme: jekyll/minima
 minima:
   social_links:
@@ -18,3 +21,6 @@ github_username:  corazza
 
 feed:
   disable: true
+
+exclude:
+  - "*.txt"

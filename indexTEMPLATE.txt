@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: /
+---
+
+<img src="/assets/images/profile2.jpg" alt="Me" style="width:50%;">
+
+## My projects ~ [GitHub](https://github.com/corazza/)
+
+$$$HERE$$$
+
+[See more on my GitHub!](https://github.com/corazza/)
