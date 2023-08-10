@@ -18,3 +18,5 @@ scripts:
 ## My projects
 
 $$$HERE$$$
+
+[See more on my GitHub!](https://github.com/corazza/)
