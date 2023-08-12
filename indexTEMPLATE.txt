@@ -5,7 +5,7 @@ permalink: /
 
 <img src="/assets/images/profile2.jpg" alt="Me" style="width:50%;">
 
-## My projects (my [GitHub](https://github.com/corazza/), also [posts](/posts))
+## Projects (my [GitHub](https://github.com/corazza/), also [posts](/posts))
 
 $$$HERE$$$
 

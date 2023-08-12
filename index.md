@@ -5,7 +5,7 @@ permalink: /
 
 <img src="/assets/images/profile2.jpg" alt="Me" style="width:50%;">
 
-## My projects (my [GitHub](https://github.com/corazza/), also [posts](/posts))
+## Projects (my [GitHub](https://github.com/corazza/), also [posts](/posts))
 
 - **[text2task](https://github.com/corazza/text2task)**  
   Describe a task in natural language and see an agent perform it! (Master's thesis)  
